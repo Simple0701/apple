@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#brain{ background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+ background-size: cover; background-repeat: no-repeat;
+ width:100% ; height:100vh ;
+    background-position: center;
+}
+h1 { color: white;
+ text-align: center; font-size: 47px;
+ padding-top: 20px;
+}
+h2{
+ color: #fff; text-align: center;
+  }
+nav ul{
+ display: flex;
+ justify-content: center; align-items: center;
+}nav ul li {
+ list-style: none; padding: 0 12px;
+}header ul {
+ display: flex; justify-content: center;
+ align-items: center;
+}
+header ul li { list-style: none;
+ padding: 12px;
+}
+select{
+     float: inherit;    font-size: 1em;
+    font-family: inherit;    font-weight: inherit;
+    line-height: inherit;    letter-spacing: inherit;
+    text-align: inherit;}
+nav ul li button{     cursor: pointer;
+    display: inline-block;    text-align: center;
+    white-space: nowrap;    font-size: 17px;
+    line-height: 1.17648;    font-weight: 400;
+    letter-spacing: -.022em;    font-family: "SF Pro Text","Myriad Set Pro",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","SF Pro Icons","Apple Legacy Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;    padding-left: 16px;
+    padding-right: 16px;    padding-top: 8px;
+    padding-bottom: 8px;    border-radius: 980px;
+    background: #0071e3;    color: #fff;
+    box-sizing: border-box;    display: block;
+    width: 100%;    border-radius: 8px;
+    background: #1d1d1f;    color: #fff;
+    width: auto;    text-decoration: none;
+}
+svg {
+ padding-top: 10px;}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    margin: 15px;
+    color: blue;
+    font-size: 28px;
+}
+
+.texct {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav{
+    background-color: grey;
+}
+nav ul li a {
+    font-size: 12px;
+}
+@media screen and (max-width: 768px){
+    nav, header{
+        display:    none;   
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    span {
+        font-size: 14px;
+    }
+
+    #brain {
+        background-size: cover;
+        height: 40vh;
+    }
+}
+.parent{
+    flex-wrap: wrap;    
+
+}
+.chlid{
+    width:  100%;
+}
+#mobile-nav{
+    display:    flex;   
+}
+#mabile-nav ul{
+    display:    flex;   
+    padding:    0;
+
+}
